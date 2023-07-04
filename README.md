@@ -28,8 +28,8 @@ canvas = Canvas(w=50, h=50, bg='.')
   Each draw function will take in 2 more optional arguments
   1. brush : The charactor you want to use to fill the shape.
   2. opacity : The opacity of the shape in uniform (0 - 1)
-     The charactor that is used when working with opacity is from here -> http://paulbourke.net/dataformats/asciiart/.
-     #If you gives in the opacity the brush will not be use.
+     The charactor that is used when working with opacity is from here -> http://paulbourke.net/dataformats/asciiart/.<br>
+     <b>If you gives in the opacity the brush will not be use.</b>
 
 4. Use draw() to print the canvas
   ```python
