@@ -76,8 +76,8 @@ class Canvas:
                 if self.__pos_in_canvas((x, y)):
                     self.canvas[y][x] = brush
 
-    def draw_circle(self, pos, r, brush = '*', opacity = None):
-        x1, y1 = pos
+    def draw_circle(self, center, r, brush = '*', opacity = None):
+        x1, y1 = center
         brush = self.__verify_brush(brush, opacity)
         for y in range(self.h):
             for x in range(self.w):
