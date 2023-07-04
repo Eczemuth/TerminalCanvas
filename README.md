@@ -21,7 +21,7 @@ canvas = Canvas(w=50, h=50, bg='.')
   ```python
   canvas.draw_triangle((25, 10), (42, 32), (12, 25), opacity=0.8)
   ```
-  - Draw rectangle will take in top-left corner positions, width and height of rectangle.
+  - Draw rectangle will take in <b>top-left corner</b> positions, width and height of rectangle.
   ```python
   canvas.draw_rectangle(top_left_pos=(42, 15), w=7, h=10, opacity=1)
   ```
